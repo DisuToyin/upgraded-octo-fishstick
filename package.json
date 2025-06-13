@@ -1,0 +1,42 @@
+{
+ 
+  "name": "rayyan-demo-app",
+ 
+  "version": "1.0.0",
+ 
+  "description": "Rayyan marketing website",
+ 
+  "main": "tailwind.config.js",
+ 
+  "scripts": {
+ 
+   
+  "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+ 
+   
+  "build:watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+ 
+   
+  "build:prod": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+ 
+   
+  "dev": "npx serve",
+ 
+   
+  "test": "echo \"Error: no test specified\" && exit 1"
+ 
+  },
+ 
+  "keywords": [],
+ 
+  "author": "",
+ 
+  "license": "ISC",
+ 
+  "devDependencies": {
+ 
+   
+  "tailwindcss": "^3.4.1"
+ 
+  }
+}
